@@ -1,0 +1,9 @@
+:root {
+    --primary-color: #DA0E52;
+    --secondary-color: #411C69;
+    --tertiary-color: #FBCFBE;
+    --font-size-base: 16px;
+    --font-size-large: 24px;
+    --font-bold: 'Red Hat Display Bold';
+    --font-black: 'Red Hat Display Black';
+}

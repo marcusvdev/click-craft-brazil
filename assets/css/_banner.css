@@ -1,0 +1,30 @@
+.banner{
+    width: 100%;
+    min-height: 80vh;
+    background-color: var(--tertiary-color);
+    transition: all 600ms linear;
+    margin-bottom: 4rem;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+
+.banner__row{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.banner__image{
+    width: 100%;
+    max-width: 481px;
+}
+
+.banner__text{
+    width: 100%;
+    max-width: calc(100% - 481px);
+}
+.banner__text h2{
+    font-size: 35px;
+    line-height: 45px;
+    letter-spacing: 3px;
+    padding-bottom: 1rem;
+}

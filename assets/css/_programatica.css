@@ -1,0 +1,109 @@
+.programatica{
+    background-color: #F4F4F4;
+    padding: 3rem 0;
+}
+.programatica h2{
+    color: var(--secondary-color);
+    padding: 2rem 0;
+}
+
+.programatica__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 0 6rem;
+}
+.programatica__list__item{
+    width: calc(98% / 2);
+    display: flex;
+    align-items: center;
+    margin-bottom: .5rem;
+}
+.programatica__list__item__icon{
+    width: 60px;
+    height: 60px;
+    padding: .8rem;
+    margin-right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--secondary-color);
+    border-radius: 9999px;
+}
+.programatica__list__item__icon img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.programatica__list__item p span{
+    display: block;
+    text-transform: uppercase;
+}
+
+.programatica__segmentacoes{
+    padding-top: 3rem;
+}
+.programatica__segmentacoes__list{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.programatica__segmentacoes__list__item{
+    width: calc(96% / 4);
+    height: 300px;
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 0;
+    border-radius: 1rem;
+}
+.programatica__segmentacoes__list__item h3 {
+    color: var(--tertiary-color);
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.programatica__segmentacoes__list__item img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin-bottom: 1rem;
+}
+.programatica__segmentacoes__list__item ul {
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 0 1rem;
+}
+.programatica__segmentacoes__list__item ul li {
+    display: block;
+    width: 100%;
+    color: #FFFFFF;
+}
+.programatica__segmentacoes__list__item ul li::before {
+    content: "•";
+}
+.programatica__segmentacoes__list__item ul.expandable li {
+    width: 48%;
+}
+
+@media (max-width: 768px){
+    .programatica__list{
+        padding: 0;
+    }
+    .programatica__list__item{
+        width: 100%;
+    }
+    .programatica__segmentacoes__list__item{
+        width: 100%;
+        height: initial;
+    }
+}

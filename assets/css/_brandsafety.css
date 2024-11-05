@@ -1,0 +1,35 @@
+.brandsafety{
+    padding: 2rem 0;
+}
+
+.brandsafety__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding-top: 3rem;
+}
+
+.brandsafety__list__item{
+    width: calc(96% / 3);
+    background-image: url('../images/bg-brandsafety.png');
+    background-repeat: no-repeat;
+    background-position: 0 center;
+    padding: 0 12rem 0 2rem;
+    margin-bottom: 2rem;
+    font-size: 26px;
+    font-family: var(--font-bold);
+    color: var(--secondary-color);
+    min-height: 140px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+@media (max-width: 768px){
+    .brandsafety__list__item{
+        width: 100%;
+        padding: 0 2rem 0 2rem;
+    }
+}
